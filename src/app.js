@@ -12,7 +12,7 @@ let newDomain = "";
 let tgtDomain = document.querySelector("#domain");
 
 window.onload = function() {
-  setDomain();
+  setdomain();
   tgtDomain.innerHTML = newDomain;
 };
 
@@ -21,8 +21,7 @@ const setdomain = () => {
     for (let b = 0; b < adj.length; b++) {
       for (let c = 0; c < noun.length; c++) {
         for (let d = 0; d < adress.length; d++) {
-          newDomain += pronoun[a] + adj[b] + noun[c] + adress[d];
-          +"<br/>";
+          newDomain += pronoun[a] + adj[b] + noun[c] + adress[d];+"<br/>";
         }
       }
     }
